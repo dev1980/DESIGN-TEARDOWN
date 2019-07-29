@@ -54,12 +54,58 @@ header {
 }
 .search{
     margin-top: 20px;
-    
+
 }
 
 .search p a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+
+}
+.container {
+    margin-top: 0px;
+}
+
+.latest-articles {
+    width: 100%;
+    background-color: #D4D4D4;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.latest-articles-part {
+    text-align: center;
+    width: 50%;
+    height: 650px;
+    border: 1px solid white;
+}
+
+.latest-articles-part h2 {
+    color: #000000bf;
+    font-size: 35.792px;
+    font-weight: 700;
+    text-align: left;
+    width: 70%;
+    margin: 40% auto;
+
+}
+
+.latest-articles-banner {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    
+    
+}
+.latest-articles-banner p {
+    background-color:  #333333;
+    margin:20px auto;
+    width: 300px;
+    font-size: 26px;
+    letter-spacing: -1px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
 
 }
