@@ -109,3 +109,23 @@ header {
     border-radius: 10px;
 
 }
+.latest-posts {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.latest-posts-part {
+    text-align: center;
+    width: 33.33%;
+    height: 650px;
+    border: 1px solid white;
+    background-color: #D4D4D4;
+    padding: 20px;
+}
+
+.latest-posts-part h2 {
+    color: #000000bf;
+    text-align: left;
+    margin: 40% auto;
+}
+
