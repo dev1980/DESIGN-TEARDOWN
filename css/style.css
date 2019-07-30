@@ -286,3 +286,39 @@ header {
     text-align: center;
     color: white;
 }
+footer {
+    height: 800px;
+    background-color:  #333333;
+}
+
+footer p {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+.bottom-menu{
+text-align: center;
+padding-bottom: 5px;
+}
+li{
+display: inline-block;
+padding: 0 10px 0 10px;
+}
+
+.bottom-menu a {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+/*Media*/
+@media only screen and (max-width: 600px) {
+    .latest-articles-part {
+        width: 100%;
+    }
+
+    .latest-posts-part {
+        width: 50%;
+    }
+}
