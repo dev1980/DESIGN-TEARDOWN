@@ -129,3 +129,103 @@ header {
     margin: 40% auto;
 }
 
+.latest-posts {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.latest-posts-part {
+    text-align: center;
+    width: 33.33%;
+    height: 650px;
+    border: 1px solid white;
+    background-color: #D4D4D4;
+    padding: 20px;
+}
+
+.latest-posts-part h2 {
+    color: #000000bf;
+    text-align: left;
+    margin: 40% auto;
+}
+
+/* Advertisement*/
+.ads {
+    height: 750px;
+    display: flex;
+    color: white;
+    font-size: 36px;
+}
+
+.sponsors {
+    background-color:  #333333;
+    width: 25%;
+    height: 35%;
+    margin: 2% auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.members {
+    background-color:  #333333;
+    width: 55%;
+    height: 85%;
+    margin: 2% auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.next-to-add {
+    margin-top: 20px;
+    text-align: left;
+    width: 33.33%;
+    height: 650px;
+    border: 1px solid white;
+    background-color: #D4D4D4;
+    padding: 20px;
+    font-size: 17px;
+    color: #000000bf;
+}
+
+.big-advert {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color:  #333333;
+    overflow: hidden;
+}
+
+.big-advert h1 {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.big-advert p {
+    max-width: 60vw;
+    font-size: 20.45px;
+    margin: auto;
+}
+
+.big-advert img {
+    max-width: 920px;
+    margin-bottom: -4em;
+}
+.big-advert button {
+    margin-top: 30px;
+    background-color: white; 
+  border: 1px solid white;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  
+
+}
+.big-advert button a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
