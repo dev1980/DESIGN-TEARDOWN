@@ -200,24 +200,25 @@ header {
 
 .big-advert h1 {
     font-size: 40px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .big-advert p {
-    max-width: 60vw;
+    max-width: 50vw;
     font-size: 20.45px;
     margin: auto;
 }
 
 .big-advert img {
-    max-width: 920px;
+    max-width: 820px;
     margin-bottom: -4em;
 }
 .big-advert button {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: white; 
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 5px;
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -226,6 +227,36 @@ header {
 }
 .big-advert button a {
     text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+     font-size: 20px;
+}
+
+
+.shared {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.shared-part {
+    background-color: #D4D4D4;
+    width: 40%;
+    
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.shared-part p {
+    font-size: 1.3em;
+}
+
+.design {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    height: 430px;
+    background-color:  #333333;
+    text-align: left;
+    padding: 40px 40% 0px 10%;
+    font-size: 1.3em;
 }
