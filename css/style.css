@@ -260,3 +260,29 @@ header {
     padding: 40px 40% 0px 10%;
     font-size: 1.3em;
 }
+
+#newsletter {
+    width: 60%;
+    height: 700px;
+    background-color:  #333333;
+    margin:20px;
+    text-align: center;
+    border-radius: 2%;
+}
+
+#newsletter h2 {
+    text-align: center;
+    color: white;
+}#newsletter {
+    width: 60%;
+    height: 700px;
+    background-color:  #333333;
+    margin:20px;
+    text-align: center;
+    border-radius: 2%;
+}
+
+#newsletter h2 {
+    text-align: center;
+    color: white;
+}
