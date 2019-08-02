@@ -124,7 +124,12 @@ header {
 .latest-posts-part h2 {
     color: #000000bf;
     text-align: left;
-    margin: 40% auto;
+    margin: 40px auto;
+}
+.latest-posts-part p {
+    color:white;
+    text-align: center;
+    
 }
 
 .latest-posts {
@@ -132,20 +137,14 @@ header {
     flex-flow: row wrap;
     width: 100%;
 }
-.latest-posts-part {
-    text-align: center;
-    width: 33.33%;
-    height: 650px;
-    border: 1px solid white;
-    background-color: #D4D4D4;
-    padding: 10px;
+.latest-posts-part ul li {
+   display: block;
+   font-size: 20px;
+   padding: 10px;
+   text-align: left;
 }
 
-.latest-posts-part h2 {
-    color: #000000bf;
-    text-align: left;
-    margin: 40% auto;
-}
+
 
 
 /* Advertisement*/
@@ -231,10 +230,6 @@ header {
     justify-content: center;
 }
 
-
-
-
-
 .shared {
     display: flex;
     flex-flow: row wrap;
@@ -266,22 +261,9 @@ header {
 }
 
 #newsletter {
-    width: 60%;
-    height: 700px;
+    width: 65%;
+    height: 650px;
     background-color:  #333333;
-    margin:20px;
-    text-align: center;
-    border-radius: 2%;
-}
-
-#newsletter h2 {
-    text-align: center;
-    color: white;
-}#newsletter {
-    width: 60%;
-    height: 700px;
-    background-color:  #333333;
-    margin:20px;
     text-align: center;
     border-radius: 2%;
 }
@@ -290,9 +272,12 @@ header {
     text-align: center;
     color: white;
 }
+
 footer {
-    height: 800px;
+    height: 700px;
     background-color:  #333333;
+    display: flex;
+    flex-direction: column;
 }
 
 footer p {
@@ -314,6 +299,24 @@ padding: 0 10px 0 10px;
     color: white;
     font-size: 1.1em;
     text-decoration: none;
+}
+.bottom-section{
+    margin-top: 50px;
+    color: white;
+}
+.bottom-section p {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+.bottom-links {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.bottom-links a{
+  
+    color: white;
 }
 
 /*Media*/
